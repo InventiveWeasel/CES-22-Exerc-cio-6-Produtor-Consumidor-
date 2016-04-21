@@ -19,10 +19,20 @@ public class ConPro {
         Produtor produtor1 = new Produtor(1, "producao1.txt", b);
         Consumidor consumidor1 = new Consumidor(1, b);
         Consumidor consumidor2 = new Consumidor(2, b);
+        Consumidor consumidor3 = new Consumidor(3, b);
+        Consumidor consumidor4 = new Consumidor(4, b);
+        Consumidor consumidor5 = new Consumidor(5, b);
+        Consumidor consumidor6 = new Consumidor(6, b);
+        Consumidor consumidor7 = new Consumidor(7, b);
         
         produtor1.start();
         consumidor1.start();
         consumidor2.start();
+        consumidor3.start();
+        consumidor4.start();
+        consumidor5.start();
+        consumidor6.start();
+        consumidor7.start();
     }
     
     static class Buffer{
